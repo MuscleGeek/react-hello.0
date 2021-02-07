@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export const Jumbotron = props => {
 	return (
-		<div className="jumbotron">
+		<div className="jumbotron d-flex flex-column">
 			<h1 className="display-4">{props.Title}</h1>
 			<p className="lead mt-2">{props.p1}</p>
 			<hr className="my-4" />
