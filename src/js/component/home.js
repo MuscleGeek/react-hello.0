@@ -3,7 +3,7 @@ import React from "react";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
-import { navBar } from "./navbar.js";
+import { Nav } from "./navbar.js";
 import { Jumbotron } from "./jumbotron.js";
 import { Card } from "./card.js";
 import { Footer } from "./footer.js";
@@ -12,20 +12,17 @@ import { Footer } from "./footer.js";
 export function Home() {
 	return (
 		<div className="container">
-			<div className="row">
-				<navBar
-					brandLink="https://www.hackthebox.eu/profile/141921"
-					navImg="https://res-1.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/dgsrzgjf4paklpbom6uj"
-					navLink1="https://www.hackthebox.eu/profile/141921"
-					nameLink1="HacktheBox"
-					navLink2="https://tryhackme.com/"
-					nameLink2="TryHackMe!"
-					navLink3="https://www.vulnhub.com/"
-					nameLink3="Vulhub"
-					navLink4="https://www.root-me.org"
-					nameLink4="Root-Me"
-				/>
-			</div>
+			<Nav
+				brandLink="https://www.hackthebox.eu/profile/141921"
+				navLink1="https://tryhackme.com/"
+				nameLink1="TryHackMe"
+				navLink2="https://www.vulnhub.com/"
+				nameLink2="Vulnhub"
+				navLink3="https://www.root-me.org/"
+				nameLink3="Root-Me"
+				navLink4="https://www.hackerone.com/"
+				nameLink4="HackerOne"
+			/>
 
 			<div className="container-fluid mx-0 py-0">
 				<div className="row">

@@ -8,7 +8,7 @@ export const Footer = props => {
 				className="text-center p-3"
 				style={{ background: "rgba(0, 0, 0, 0.2)" }}>
 				{props.fooCopy}
-				<a className="text-dark" href={props.fooLink}>
+				<a className="text-light" href={props.fooLink}>
 					{props.fooText}
 				</a>
 			</div>
